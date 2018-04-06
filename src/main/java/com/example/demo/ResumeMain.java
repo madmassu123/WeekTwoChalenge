@@ -13,7 +13,7 @@ public class ResumeMain {
         ArrayList<Resume1> resumes = new ArrayList<>();
         do {
             newresume = new Resume1();
-            System.out.println(resumes);
+
 
             System.out.println("Enter your FirstName:");
             newresume.setFirstName(Scan.nextLine());
@@ -23,7 +23,7 @@ public class ResumeMain {
 
             System.out.println("Enter your Email:");
             newresume.setEmail(Scan.nextLine());
-
+            System.out.println("====================================================================================");
             System.out.println("Enter your EducationalAcheivements:");
             newresume.setEducationalAcheivements(Scan.nextLine());
 
@@ -32,7 +32,7 @@ public class ResumeMain {
 
             System.out.println("Enter your Another degree:");
             newresume.setAnotherdegree(Scan.nextLine());
-
+            System.out.println("=====================================================================================");
             System.out.println("Enter your experiences:");
             newresume.setExperiences(Scan.nextLine());
 
@@ -50,7 +50,7 @@ public class ResumeMain {
 
             System.out.println("Enter your end date:");
             newresume.setEnddate(Scan.nextLine());
-
+            System.out.println("====================================================================================");
 
 
             final boolean add = resumes.add(newresume);
